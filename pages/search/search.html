@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../src/style/global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../../src/style/mobile.css" />
+    <title>Pesquisar</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../../index.html">
+        <img
+          src="../../src/assets/logo.png"
+          alt="Logo do site"
+          title="Logo do site"
+          class="header__logo"
+        />
+      </a>
+      
+      <nav class="header__nav">
+        <ul class="nav__list">
+        <li><a href="../../index.html" class="nav__item">INÍCIO</a></li>
+        <li><a href="../contact/contact.html" class="nav__item">CONTATO</a></li>
+        <li><a href="../streaming/streaming.html" class="nav__item">STREAMING</a></li>
+        <li><a href="../history/history.html" class="nav__item">HISTÓRIA DO CINEMA</a></li>
+        <li></li>
+        </ul>
+      </nav>
+
+      <form action="./search.html" method="GET" class="header__form_search">
+        <input
+          type="search"
+          name="search_movie"
+          id="search_movie"
+          class="form_search__input_search"
+          placeholder="Pesquisar filme"
+        />
+        <i class="ph ph-magnifying-glass"></i>
+      </form>
+
+      <div class="mobile__menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <div class="">
+        <h1 class="page_title">PESQUISA</h1>
+        <span class="page_subtitle"
+          >Sua pesquisa por "<span id="search_therm"></span>"
+          <span id="search_therm_result"></span
+        ></span>
+      </div>
+
+      <!-- Sessão com os filmes encontrados -->
+      <section class="search_list_movies"></section>
+    </main>
+
+    <footer class="footer">
+      <span>Projeto desenvolvido pelo grupo 3.</span>
+    </footer>
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+    <script src="./../../src/scripts/searchMovie.js" type="module"></script>
+    <script src="../../src/scripts/mobile-navbar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+.highlight_movie {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.highlight_movie__cover-img {
+  border-radius: 4px;
+}
+.highlight_movie__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 25px;
+}
+.highlight_movie__category {
+  display: flex;
+  padding: 8px 16px;
+  background-color: var(--red);
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 12px;
+  color: var(--white);
+}
+.highlight_movie__title {
+  color: var(--white);
+  font-size: 36px;
+}
+.highlight_movie__resume {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+}
+.highlight_movie__learn_more {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--white);
+  transition: 0.25s;
+  padding: 8px 0;
+}
+.highlight_movie__learn_more:hover {
+  border-left: 3px solid var(--red);
+  border-bottom: 3px solid var(--red);
+  padding: 8px;
+  background-color: var(--white);
+  color: var(--background);
+  font-weight: 600;
+}
+
+.movie_list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.movie_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.movie_box__description,
+.movie_box__cover-img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.movie_box__description {
+  gap: 16px;
+  line-height: 25px;
+}
+.movie_box__new_title {
+  padding: 8px 16px;
+  border-radius: 12px;
+  background-color: var(--red);
+  color: var(--white);
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 24px;
+  font-weight: 600;
+}
+.movie_box__title {
+  color: var(--white);
+  font-size: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.movie_box__resume {
+  color: var(--white);
+  font-size: 18px;
+  font-weight: 400;
+}
+.movie_box__learn_more {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: var(--white);
+}
+.movie_box__cover-img {
+  max-width: 250px;
+  width: auto;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.page_title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 500;
+}
+.page_subtitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+

@@ -1,0 +1,82 @@
+.form_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.form_row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.form_field__label {
+  color: var(--white);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form_field__input,
+.form_field__textarea {
+  display: flex;
+  padding: 8px;
+  align-items: flex-start;
+  width: 100%;
+  border-radius: 2px;
+  background: var(--white);
+  width: 100%;
+}
+
+.form_field__input::placeholder {
+  color: var(--gray);
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form_field__textarea {
+  resize: none;
+  height: 150px;
+}
+
+.btn_send {
+  padding: 8px 8px;
+  border-radius: 2px;
+  background: var(--green);
+  color: var(--white);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mobile__menu {
+  cursor: pointer;
+  display: none;
+}
+
+.mobile__menu div {
+  width: 32px;
+  height: 2px;
+  background: var(--white);
+  margin: 8px;
+  transition: 0.3s;
+}
+
+
+@media screen and (min-width: 768px) {
+  .form_row {
+    flex-direction: row;
+  }
+}

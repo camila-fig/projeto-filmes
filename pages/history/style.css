@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1680px;
+}
+
+.titulo-cine {
+  color: var(--white);
+  text-align: center;
+  font-size: 30px;
+  }
+  
+.titulo-descrição {
+  text-align: center;
+  color: var(--gray);
+  line-height: 20px;
+  margin-top: 10px;
+  }
+  
+.titulo-noticia {
+  text-align: center;
+  color: var(--white);
+  margin-top: 10px;
+  line-height: 20px;
+  }
+
+.titulo-noticia-colorido {
+  text-align: center;
+  color: var(--yellow);
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.titulo-noticia-digital {
+  text-align: center;
+  color: var(--blue);
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.conteudo-cine {
+  width: 100%;
+  padding: 20px;
+  line-height: 20px;
+  }
+  
+.texto{
+  color: var(--white);
+  margin-top: 30px;
+  line-height: 20px;
+  text-align: center;
+  }
+
+.trailer {
+  margin-top: 30px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  }
+  
+iframe {
+  width: 50%;
+  height: 50vh;
+  }
+  
+.sub-texto02 {
+  color: var(--gray);
+  line-height: 20px;
+  text-align: center;
+  }
+  
+.sub-imagem {
+  text-align: center;
+  color: var(--gray);
+  line-height: 20px;
+  }
+
+.box-destaque {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.titulo {
+  color: var(--white);
+  line-height: 35px;
+  }
+
+.informação-invenções {
+  color: var(--gray);
+  margin-top: 20px;
+  }
+
+.informação {
+  color: var(--white);
+  margin-top: 20px;
+  text-align: center;
+  }
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: var(--white);
+  cursor: pointer;
+  transition: transform 200ms ease-in-out;
+  }
+  
+button:hover {
+  transform: scale(1.05);
+  background-color: var(--gray);
+  }  
+
+.imagem-invenções {
+  width: 100%;
+  }
+  
+.imagem-invenções img {
+  max-width: 100%;
+  height: auto;
+  }
+
+.sub-titulo-imagem {
+  color: var(--white);
+  line-height: 20px;
+  }  
+
+.imagem-noticia {
+  justify-content: center;
+  display: flex;
+  margin-top: 10px;
+  }  
+
+.imagem-noticia img {
+  max-width: 100%;
+  height: auto;
+  } 
+
+@media (max-width: 850px) {
+  .box-destaque {
+    flex-direction: column;
+  }
+  .imagem-invenções{
+    object-fit: cover;
+    width: 100%;
+  }
+}

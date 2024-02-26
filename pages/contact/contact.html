@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../src/style/global.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../../src/style/mobile.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="../../index.html">
+        <img
+          src="../../src/assets/logo.png"
+          alt="Logo do site"
+          title="Logo do site"
+          class="header__logo"
+        />
+      </a>
+      <nav class="header__nav">
+        <ul class="nav__list">
+        <li><a href="../../index.html" class="nav__item">INÍCIO</a></li>
+        <li><a href="../contact/contact.html" class="nav__item">CONTATO</a></li>
+        <li><a href="../streaming/streaming.html" class="nav__item">STREAMING</a></li>
+        <li><a href="../history/history.html" class="nav__item">HISTÓRIA DO CINEMA</a></li>
+        <li></li>
+        </ul>
+      </nav>
+
+      <form
+        action="./../search/search.html"
+        method="GET"
+        class="header__form_search"
+      >
+        <input
+          type="search"
+          name="search_movie"
+          id="search_movie"
+          class="form_search__input_search"
+          placeholder="Pesquisar filme"
+        />
+        <i class="ph ph-magnifying-glass"></i>
+      </form>
+
+      <div class="mobile__menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+
+    <main>
+      <div class="page_description">
+        <h1 class="page_title">CONTATO</h1>
+        <span class="page_subtitle"
+          >Nos envie uma sugestão, dúvida, elogios ou críticas através do
+          formulário abaixo</span
+        >
+      </div>
+      <form action="" method="" class="form_contact">
+        <div class="form_row">
+          <div class="form_field">
+            <label for="name" class="form_field__label">NOME</label>
+            <input
+              type="text"
+              name=""
+              id="name"
+              placeholder="SEU NOME"
+              class="form_field__input"
+            />
+          </div>
+          <div class="form_field">
+            <label for="email" class="form_field__label">E-MAIL</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="SEU E-MAIL"
+              class="form_field__input"
+            />
+          </div>
+        </div>
+
+        <div class="form_field">
+          <label for="message" class="form_field__label">MENSAGEM</label>
+          <textarea
+            name=""
+            id="message"
+            placeholder="DEIXE SUA MENSAGEM AQUI"
+            class="form_field__textarea"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn_send" id="btn_send" onclick="save_form()">ENVIAR</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <span>Projeto desenvolvido pelo grupo 3.</span>
+    </footer>
+    <script src="../../src/scripts/contact.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+    <script src="../../src/scripts/mobile-navbar.js"></script>
+  </body>
+</html>
