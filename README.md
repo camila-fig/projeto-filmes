@@ -1,5 +1,5 @@
 <h1>Desenvolvimento Web - Projeto Final</h1>
-<p>Neste projeto, referente a avaliação final do curso de Desenvolvimento Web realizado na CoderHouse, em grupo, foi necessário criar um site de filmes aplicando o máximo dos conhecimentos adquiridos durante o curso.</p>
+<p>Neste projeto, foi criado um site de filmes aplicando o máximo dos conhecimentos adquiridos durante o curso de Desenvolvimento Web.</p>
 <p>Os critérios de avaliação foram os seguintes:</p>
 
 <h2>Estrutura final do site (HTML):</h2>
