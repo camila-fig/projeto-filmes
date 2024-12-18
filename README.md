@@ -1,21 +1,36 @@
-<h1>Desenvolvimento Web - Projeto Final</h1>
-<p>Neste projeto, foi criado um site de filmes aplicando o máximo dos conhecimentos adquiridos durante o curso de Desenvolvimento Web.</p>
-<p>Os critérios de avaliação foram os seguintes:</p>
+# Projeto Filmes
 
-<h2>Estrutura final do site (HTML):</h2>
-<p>Respeitando os critérios trabalhados em relação à legibilidade, adaptação ao framework, uso de tags e práticas de SEO.</p>
+## Descrição:
+Neste projeto, foi construído um site de filmes através de HTML, Javascript e CSS, consumindo a API pública [TMDB](https://developer.themoviedb.org/docs/getting-started). Nele, é possível visualizar na página inicial os lançamentos mais recentes de filmes e ao clicar em um filme em específico, mais detalhes sobre o mesmo são apresentados. Também é possível navegar pelas abas de contatos, streaming e história do cinema. Na barra de pesquisa, uma busca pode ser realizada ao inserir palavras-chave retornando todos os filmes que contenham esta palavra em seu título.
 
-<h2>Estilo final do site (CSS):</h2>
-<p>Aplicando os critérios trabalhados em relação à estrutura visual, design atraente e reaproveitamento de códigos.</p>
+## Tecnologias usadas:
+- HTML
+- Javascript
+- CSS
+- Git e GitHub
+- Figma
+- Vercel
 
-<h2>Upload no servidor (GITHUB):</h2>
-<p>Usar um serviço de hosting para disponibilizar o site na web (GitHub Pages).</p>
+## Instruções de instalação:
+Siga este passo a passo para testar este repositório.
 
-<h2>Conteúdo do site (API):</h2>
-<p>Colocar informações de acordo com o tema do site que foi escolhido, não usar texto e multimídia padrão.</p>
-<br>
+Clone o repositório para sua máquina local
+```
+$ git clone https://github.com/camila-fig/projeto-filmes.git
+```
 
-<h3>Componentes do grupo (GitHub user):</h3>
+Acesse a pasta
+
+```
+$ cd projeto-filmes
+```
+
+Abra o arquivo index.html com o Live Server e navegue pelo site.
+
+## Capturas de tela:
+https://www.loom.com/share/973cd5635b624b949b264ddf68935f9d?sid=200b9fee-0fd4-4c07-9e40-4a7105287236
+
+## Colaboradores (GitHub user):
 <ul>
   <li>BrittosMonteiro</li>
   <li>camila-fig</li>
